@@ -1,7 +1,7 @@
 const express = require("express"); // npm install express @desc create express server
 const path = require("path"); // send path
 const bodyParser = require("body-parser"); // npm install body-parser @desc takes input
-const PORT = 4000; // defining port
+const PORT = process.env.PORT || 3000; // defining port
 var users = [];
 var currentUser = {
    username: "",
