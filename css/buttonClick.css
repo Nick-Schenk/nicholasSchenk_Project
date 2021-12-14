@@ -1,0 +1,23 @@
+body{
+    margin: 100px;
+    background-color: rgb(46, 144, 255);
+    text-align: center;
+}
+h1{
+    color: rgb(252, 252, 252);
+    text-shadow: 2px 2px 3px rgb(240, 0, 0);
+}
+h3{
+    text-decoration: underline;
+    color: rgb(240, 0, 0);
+}
+button{
+    cursor: pointer;
+    color: rgb(240, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(151, 194, 211);
+    background: linear-gradient(to right, rgb(34, 6, 85),rgb(132, 9, 163));
+}

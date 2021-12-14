@@ -1,0 +1,10 @@
+h2{
+    text-align: center;
+    size: 130%;
+}
+
+body{
+    background-color: rgb(46, 144, 255);
+    color: rgb(250, 245, 245);
+    font-family: sans-serif;
+}

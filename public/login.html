@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Web Application</title>
+      <link rel="stylesheet" href="../css/style.css">
+   </head>
+
+   <body>
+      <div id="#app">
+
+         <header class="header">
+            <h1 class="title">Web Application</h1>
+         </header>
+
+         <main class="main">
+            <form action="/login" method="POST" class="form">
+               <div class="form__group">
+                  <label class="form__label">Name</label>
+                  <input
+                     type="text"
+                     class="form__input"
+                     name="username"
+                     placeholder="Enter the name"
+                     required
+                  />
+               </div>
+               
+               <div class="form__group">
+                  <label class="form__label">Email</label>
+                  <input
+                     type="email"
+                     class="form__input"
+                     name="email"
+                     placeholder="Enter the email"
+                     required
+                  />
+               </div>
+               <button class="form__button">Submit</button>
+            </form>
+         </main>
+
+      </div>
+
+   </body>
+</html>

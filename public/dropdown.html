@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Profile</title>
+      <link rel="stylesheet"  href="../css/style.css" />
+      <!-- <script src="../js/buttonClick.js"></script> -->
+   </head>
+
+   <body>
+      <div id="#app">
+
+         <header class="header">
+            <h1 class="title">Profile</h1>
+         </header>
+
+         <main class="main">
+            <form action="/update-profile" method="POST" class="form">
+               <div class="form__group">
+                  <label class="form__label">University</label>
+                  <select name="University" class="form__input">
+                     <option value="Oakland University">Oakland University</option>
+                  </select>
+               </div>
+               <div class="form__group">
+                  <label class="form__label">Degree</label>
+                  <select name="Degree" class="form__input">
+                     <option value="Information Technology">Information Technology</option>
+                  </select>
+               </div>
+               <div class="form__group">
+                  <label class="form__label">Classes</label>
+                  <select name="Classes" class="form__input">
+                     <option value="CSI2470">CSI2470</option>
+                     <option value="CSI2520">CSI2520</option>
+                     <option value="CSI2340">CSI2340</option>
+                  </select>
+               </div>
+               <button class="form__button", onclick="window.location= 'queue.html';">Submit</button>
+            </form>
+         </main>
+
+      </div>
+   </body>
+</html>
